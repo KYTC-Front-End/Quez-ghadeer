@@ -1,0 +1,84 @@
+:root{
+    --body-bg:#19283f;
+    --navbar:#fff;
+    --active-navbar:#33d1cc;
+    --btncolor:#ff3150;
+    --btntext:#ffc400;
+}
+.navbar{
+    background-color: var(--body-bg);
+    position: static;
+}
+.navbar-nav{
+    border-right: 1px solid #33d1cc;
+
+}
+.navbar .container .collapse .navbar-nav .nav-item .nav-link{
+    color: var(--navbar);
+}
+.navbar .container .collapse .navbar-nav .nav-item  .active{
+    color: var(--active-navbar);
+}
+
+.btn{
+background-color: var(--btncolor);
+border:none;
+border-radius:2rem ;
+color:var( --btntext);
+font-size: large;
+}
+.btn:hover{
+background-color: var(--active-navbar);
+color: var(--navbar);
+}
+.container-herosection{
+    background-color: var(--body-bg);
+    color: var(--navbar);
+    height: 500px;
+}
+p{
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* .line{
+    width: 200px;
+border-bottom: 3px solid var(--active-navbar);
+text-align: center;
+
+} */
+.card-title{
+    color:#ffc400;
+}
+.site-sections{
+    background-color: #70ffff36;
+}
+.card{
+    border: none;
+}
+
+.number {
+    font-size: 8rem;
+}
+.icon-image{
+    z-index: 5;
+    font-size:4rem;
+    box-sizing: border-box;
+}
+.all{
+background-color: var(--btncolor);
+color: var(--btntext);
+border-radius:2rem ;
+
+}
+.sec-secrve{
+    color:black;
+}
+
+.container .row{
+    justify-content: center;
+    /* border: 3px solid white; */
+}
+.container .row img{
+    border: 3px solid white;
+}
